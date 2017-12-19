@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from '../components/Home'
-import NavBar from '../components/NavBar'
 
 class HomeContainer extends React.Component {
 
@@ -8,7 +7,6 @@ class HomeContainer extends React.Component {
         return (
             <div>
                 <Home />
-                <NavBar />
             </div>
         )
     }
